@@ -9,6 +9,12 @@
   background: white;
 }
 
+:root {
+  --image-width: 300px;
+  --image-height: 500px;
+  --button-height: 50px;
+}
+
 .carousel.slider {
   margin: 3.2em auto;
   width: var(--image-width);
