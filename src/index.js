@@ -20,5 +20,12 @@ function runShow() {
 }
 
 function changeImage() {
+  if (currentIndex > imgArray.length - 1) {
+    currentIndex = 0;
+  }
+  if (currentIndex < 0) {
+    currentIndex = imgArray.length - 1;
+  }
+
 }
 }
