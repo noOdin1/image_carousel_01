@@ -35,3 +35,10 @@ function resetInterval() {
   interval = setInterval(runShow, timeInterval);
 }
 
+Array.from(document.getElementsByTagName("button")).forEach((btn) => {
+  btn.addEventListener("click", () => {
+    event.target.id == "nextImg" ? currentIndex++ : currentIndex--;
+    changeImage();
+    resetInterval();
+  });
+});
