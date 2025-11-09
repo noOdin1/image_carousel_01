@@ -27,5 +27,6 @@ function changeImage() {
     currentIndex = imgArray.length - 1;
   }
 
+  imgCnt.style.transform = `translateX(calc(${-currentIndex} * var(--image-width))`;
 }
 }
