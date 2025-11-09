@@ -16,6 +16,11 @@
   overflow: hidden;
 }
 
+.images.container {
+  display: flex;
+  flex-direction: row;
+}
+
 /* Image styling */
 img {
   width: 500px;
