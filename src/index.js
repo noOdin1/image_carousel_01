@@ -14,3 +14,8 @@ let timeInterval = 5000;
  **/
 let interval = setInterval(runShow, timeInterval);
 
+function runShow() {
+  currentIndex++;
+  changeImage();
+}
+
