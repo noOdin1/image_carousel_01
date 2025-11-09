@@ -41,3 +41,19 @@ img {
   justify-content: space-between;
 }
 
+.buttons {
+  background-color: rgba(0, 232, 232, 0.3);
+  color: rgb(020, 020, 020);
+  border: none;
+  padding: 0.5rem;
+  cursor: pointer;
+  width: 49.5%;
+}
+
+.buttons:hover {
+  opacity: 0.9;
+}
+
+.buttons:focus {
+  outline: none;
+}
