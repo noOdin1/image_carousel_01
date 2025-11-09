@@ -11,8 +11,8 @@
 
 .carousel.slider {
   margin: 3.2em auto;
-  width: 300px;
-  height: 530px;
+  width: var(--image-width);
+  height: calc(var(--image-height) + var(--button-height));
   overflow: hidden;
 }
 
