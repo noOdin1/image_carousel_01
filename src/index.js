@@ -19,3 +19,6 @@ function runShow() {
   changeImage();
 }
 
+function changeImage() {
+}
+}
