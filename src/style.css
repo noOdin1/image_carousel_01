@@ -35,3 +35,9 @@ img {
   height: var(--image-height);
   object-fit: cover;
 }
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+}
+
