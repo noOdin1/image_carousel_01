@@ -8,6 +8,14 @@
   color: black;
   background: white;
 }
+
+.carousel.slider.container {
+  margin: 3.2em auto;
+  width: 300px;
+  height: 530px;
+  overflow: hidden;
+}
+
 /* Image styling */
 img {
   width: 500px;
