@@ -8,3 +8,9 @@
   color: black;
   background: white;
 }
+/* Image styling */
+img {
+  width: 500px;
+  height: 500px;
+  object-fit: cover;
+}
