@@ -29,4 +29,9 @@ function changeImage() {
 
   imgCnt.style.transform = `translateX(calc(${-currentIndex} * var(--image-width))`;
 }
+
+function resetInterval() {
+  clearInterval(interval);
+  interval = setInterval(runShow, timeInterval);
 }
+
