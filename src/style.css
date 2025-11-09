@@ -16,9 +16,11 @@
   overflow: hidden;
 }
 
-.images.container {
+.images {
   display: flex;
   flex-direction: row;
+  transform: trasnlateX(0);
+  transistion: transform 0.5s ease-in-out;
 }
 
 /* Image styling */
